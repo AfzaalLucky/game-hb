@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                echo('Jenkin File Loaded!')
+                echo('Jenkin Build is ready for testing!')
             }
         }
         stage('Test'){
